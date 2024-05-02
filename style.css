@@ -1,0 +1,36 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+.my-row{
+    display: flex;
+    flex-direction: row;
+}
+.my-circle{
+    height: 2rem;
+    width: 2rem;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.my-align-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.my-space-between{
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    background-color: antiquewhite;
+    height: 100vh;
+}
+.my-header-left{
+    background-color:#051e34;
+    display: flex;
+    width: 200px;
+}
