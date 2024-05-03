@@ -14,6 +14,9 @@
     justify-content: center;
     border-radius: 50%;
 }
+.height_nav{
+    height: 50px;
+}
 
 .my-align-items{
     display: flex;
@@ -24,13 +27,44 @@
     width: 10rem;
     display: flex;
     justify-content: space-between;
+    height: 100%;
 }
 main{
     background-color: antiquewhite;
-    height: 100vh;
+    height: calc(100vh - 58px);
+    width: calc(100vw - 200px);
+    position: fixed;
+    right: 0;
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+    
 }
 .my-header-left{
     background-color:#051e34;
     display: flex;
     width: 200px;
+    height: calc(100vh - 58px);
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #fff; 
+
+}
+
+.color_white{
+    color: white;
+    list-style: none;
+}
+.navbar-header{
+    background-color: #1b72e8;
+    height: 200px;
+    width: calc(100vw - 200px);
+    display: flex;
+    position: relative;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
 }
