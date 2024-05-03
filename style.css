@@ -63,6 +63,8 @@ main{
     width: calc(100vw - 200px);
     display: flex;
     position: relative;
+    color: white;
+    padding-left: 1rem;
 }
 .flex-column{
     display: flex;
